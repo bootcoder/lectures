@@ -1,0 +1,4 @@
+ri Array
+ri Array.sort
+ri Hash#each
+ri Math::sqrt
