@@ -9,8 +9,6 @@ i = 0
   binding.pry
 end
 
-# system 'clear'
-
 
 
 

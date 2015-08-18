@@ -4,16 +4,31 @@
 
 require 'awesome_print'
 require 'pp'
-require 'pry-byebug'
 
 crazh_hash = {fix_all_the_things: "Topher", classification: "nerd", "rando_array" => [1,2,3]}
 crazy_data = [crazh_hash, "other-stuff",true, nil, nil, [1,2,[:a, :b, "c"]]]
 
 # Regular Print
-# p crazy_data
+p "*" * 80
+p 'Regular Print'
+puts
+p crazy_data
+p "*" * 80
+puts
+puts
 
 # Pretty Print
-# pp crazy_data
+p "*" * 80
+p 'Pretty Print'
+puts
+pp crazy_data
+p "*" * 80
+puts
+puts
 
 # Awesome Print
-# ap crazy_data
+p "*" * 80
+p 'Awesome Print'
+puts
+ap crazy_data
+p "*" * 80
