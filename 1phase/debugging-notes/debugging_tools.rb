@@ -1,12 +1,15 @@
+require 'pry-byebug'
 
 
-
+########################
+# Breakpoint Debugging #
+########################
 
 i = 0
 5.times do
   puts "#{i}"
   i+=1
-  binding.pry
+  # binding.pry
 end
 
 
@@ -18,16 +21,14 @@ end
 
 
 
-class Name
+class Example
 
-  attr_accessor :name, :counter
+  attr_accessor :counter
 
   def initialize
-    @name = ""
     @counter = 0
   end
 
-  # binding.xpry
   def count_me
     until @counter == 5
       # binding.pry
@@ -38,29 +39,11 @@ class Name
 
 end
 
-# fred = Name.new
-# fred.count_me
-# jan = Name.new(name: "jan")
+# timer = Example.new
+# timer.count_me
 
 
-# puts "how much wood could a pirate duck chuck"
-
-# fred.count_me
-
-# name_container = []
-
-# 10.times { name_container << Name.new }
-
-# p "^" * 80
-# p name_container
-# p "=" * 80
-# pp name_container
-# p "!" * 80
-# ap name_container
-# p "+" * 80
-
-
-
+# timer.count_me
 
 
 
@@ -103,27 +86,3 @@ end
 
 
 
-############################
-## Raise & Rescue Example ##
-### If you are into that ###
-############################
-
-
-
-# def raise_and_rescue
-#   begin
-#     print 'I can has nom nom :> '
-#     thingy = gets.chomp
-#     puts 'I am before the raise.'
-#     raise 'A super not awesome catastrofudge error has occurred.' unless thingy == ""
-#       puts 'I am after the raise.'
-#     rescue
-#       puts 'I am rescued. YAY!!!'
-#       thingy = "some_valid_stuff"
-#     else
-#       puts "I run if there is no error but I'm totes optional."
-#   end
-#   puts 'I am after the begin block.'
-# end
-
-# raise_and_rescue
