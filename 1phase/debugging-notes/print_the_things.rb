@@ -74,8 +74,12 @@ puts "-" * 350
 
 
 
+def thingy
+  var = ap
+  p var
+end
 
-
+p thingy
 
 
 

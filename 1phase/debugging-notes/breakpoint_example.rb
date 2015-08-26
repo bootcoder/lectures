@@ -24,7 +24,7 @@ class Example
   end
 
   def count_me
-    until @counter == nil
+    until @counter == 10
       binding.pry
       puts "Feed ME!!"
       @counter += 1

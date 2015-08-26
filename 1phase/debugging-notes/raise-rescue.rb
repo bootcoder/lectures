@@ -22,7 +22,7 @@ def raise_and_rescue
       puts 'I am after the raise (if error).'
     rescue
       puts 'I am rescued. YAY!!!'
-      thingy = "some_valid_stuff"
+      $input = "some_valid_stuff"
     else
       puts "I run if there is no error but I'm totes optional."
   end
