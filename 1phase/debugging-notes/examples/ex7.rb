@@ -11,3 +11,14 @@ end
 
 e = Example.new({name: "AllyJoeBobJimBeam"})
 puts e
+
+
+
+
+class Ex7
+  def initialize(args)
+
+  end
+
+
+end

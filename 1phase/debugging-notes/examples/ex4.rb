@@ -1,6 +1,6 @@
-require_relative "../folder/otherfolder/hi"
+require_relative "./folder/otherfolder/hi"
 
-puts "Awesomest Cohort Ever == FENCE LIZARDS FOR LIFE!!!"
+puts "Most Awesomest Cohort Ever == FENCE LIZARDS FOR LIFE!!!"
 # pretend there is more exciting code here
 
 
