@@ -1,60 +1,6 @@
 require 'pp'
 
-
-# nest_arr = [[1,2,3],[4,5,6]]
-
-# pp nest_arr
-
-# p "*" * 75
-# nest_arr.each { |x| p x }
-# p "*" * 75
-# nest_arr.each do |x,y, z|
-
-#   puts "X: #{x}"
-#   puts "Y: #{y}"
-#   puts "Z: #{z}"
-
-# end
-
-p "*" * 75
-
-provided =
-          [ [:a, :b, :c],
-            [:d, :e, :f],
-            [:g, :h, :i],
-            [:j, :k, :l],
-            [:m, :n, :o],
-            [:p, :q, :r],
-            [:s, :t, :u],
-            [:v, :w, :x],
-            [:y, :z, :A] ]
-
-pp provided
-p "*" * 75
-
-
-desired = Array.new(3) { Array.new(3) }
-
-
-
-desired.map!.with_index do |row, row_index|
-  row.map!.with_index do |column, column_index|
-    puts "Row: #{row_index} Col: #{column_index}"
-    p provided.each_slice(3).to_a
-  end
-end
-
-
-pp desired
-p "*" * 75
-
-more_desired = provided.map(&:sample).each_slice(3).to_a
-
-pp more_desired
-p "*" * 75
-
-
-
+p "~" * 40
 team = [
         ["number", "name", "position", "points per game"],
         [12, "Joe Schmo", "Center", [14, 32, 7, 0, 23]],
@@ -65,9 +11,11 @@ team = [
       ]
 
 
-# pp team
-# p team[1][0]
-p "*" * 75
+pp team
+p "~" * 40
+p "team[1][0]: #{team[1][0]}"
+p "~" * 40
+
 
 hash_team = {
               "Joe Schmo" => { number: 12, position: "center", "points per game" => [14,32,7,0,23]},
@@ -79,6 +27,7 @@ hash_team = {
 
 
 
-# pp hash_team
-# p hash_team["Joe Schmo"][:number]
-p "*" * 75
+pp hash_team
+p "~" * 40
+p "hash_team['Joe Schmo'][:number]: #{hash_team['Joe Schmo'][:number]}"
+p "~" * 40
