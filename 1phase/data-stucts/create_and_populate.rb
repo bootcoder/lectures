@@ -19,7 +19,7 @@ provided =
             [:v, :w, :x],
             [:y, :z, :A] ]
 
-pp provided
+p provided
 p "*" * 40
 
 
@@ -39,10 +39,12 @@ desired.map!.with_index do |row, row_index|
 end
 
 
+p "*" * 40
 pp desired
 p "*" * 40
 
 refactored_desired = provided.map(&:sample).each_slice(3).to_a
 
+p "*" * 40
 pp refactored_desired
 p "*" * 40
