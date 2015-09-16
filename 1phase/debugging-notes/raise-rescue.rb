@@ -20,11 +20,11 @@ def raise_and_rescue
   begin
     raise ArgumentError, '(ERROR) A super not awesome catastrofudge error has occurred.' unless $input == ""
       puts 'I am after the raise (if error).'
-    rescue
-      puts 'I am rescued. YAY!!!'
-      $input = "some_valid_stuff"
-    else
-      puts "I run if there is no error but I'm totes optional."
+  rescue
+    puts 'I am rescued. YAY!!!'
+    $input = "some_valid_stuff"
+  else
+    puts "I run if there is no error but I'm totes optional."
   end
 
   puts 'I am after the Raise-Rescue block.'

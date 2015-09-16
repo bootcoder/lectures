@@ -9,7 +9,7 @@ i = 0
 5.times do
   puts "#{i}"
   i+=1
-  # binding.pry
+  binding.pry
 end
 
 
