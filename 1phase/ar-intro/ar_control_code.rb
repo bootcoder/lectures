@@ -8,6 +8,8 @@ end
 
 ### Models ###
 class Person < ActiveRecord::Base
+  has_many :dogs
+  belongs_to :corperate_overlord
 end
 
 ### Control ###
@@ -15,6 +17,7 @@ tom = Person.new
 tom.first_name = "Tom"
 tom.age = 28
 tom.save
+tom.dogs.create(name: "Fluffy the Fearless")
 
 
 
