@@ -1,23 +1,25 @@
 require 'pp'
 
-sample_end_result =
-          [ [:a, :e, :g],
-            [:l, :n, :q],
-            [:t, :w, :z] ]
+sample_end_result = [ 
+  [:a, :e, :g],
+  [:l, :n, :q],
+  [:t, :w, :z],
+]
 
 
 p "*" * 40
 
-provided =
-          [ [:a, :b, :c],
-            [:d, :e, :f],
-            [:g, :h, :i],
-            [:j, :k, :l],
-            [:m, :n, :o],
-            [:p, :q, :r],
-            [:s, :t, :u],
-            [:v, :w, :x],
-            [:y, :z, :A] ]
+provided = [ 
+  [:a, :b, :c],
+  [:d, :e, :f],
+  [:g, :h, :i],
+  [:j, :k, :l],
+  [:m, :n, :o],
+  [:p, :q, :r],
+  [:s, :t, :u],
+  [:v, :w, :x],
+  [:y, :z, :A],
+]
 
 p provided
 p "*" * 40
