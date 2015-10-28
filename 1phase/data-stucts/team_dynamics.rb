@@ -31,3 +31,39 @@ pp hash_team
 p "~" * 40
 p "hash_team['Joe Schmo'][:number]: #{hash_team['Joe Schmo'][:number]}"
 p "~" * 40
+
+
+
+
+arr = []
+
+arr.push(3)
+arr << 3
+
+hash = Hash.new
+hash.key = value
+hash[:key] = value
+
+
+
+hash = {:this_key_thing => "this value thing"}
+hash = {this_key_thing: "this value thing"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
