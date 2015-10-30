@@ -7,7 +7,7 @@
 
 
 def raise_error
-  raise SyntaxError, '(ERROR) this error is a thing that is happenen'
+  raise SyntaxError, '(ERROR) this error is a thing that is happenened'
 end
 
 
