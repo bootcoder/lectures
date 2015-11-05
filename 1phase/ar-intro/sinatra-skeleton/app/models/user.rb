@@ -1,7 +1,4 @@
 class User < ActiveRecord::Base
-
-  has_one :facebook
-
-  has_many :dogs
-
+  has_many :playlist_users
+  has_many :playlists, through: :playlist_users
 end
