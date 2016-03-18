@@ -1,15 +1,22 @@
+## Slides
+
+  - [PowerPoint](./slides/HT-debugging-basics.pptx)
+  - [PDF](./slides/HT-debugging-basics.pdf)
+
 ## Debugging Tools & Tactics
 
-  - [Seeing is believing](print_the_things.rb)
   - [Breakpoint Debugging with pry-byebug](breakpoint_example.rb)
-  - [Kill bad processes](rouge_processes.md)
   - [Smelly Code **STINKS**](smells.md)
   - [Error Handling R&R Style](raise-rescue.rb)
-  - [Want has the informations](ridoc.md)
+  - [Make it look GOOD](print_the_things.rb)
+  - [Tell me more computer!](ridoc.md)
+  - [How to Kill processes](rouge_processes.md)
 
-## Additional resources
+## Resources
 
-#### Courtesy of Sherif Abushadi
+### Links & Thoughts
+
+####Courtesy of Sherif Abushadi
 
 Great Debugging resources:
 
