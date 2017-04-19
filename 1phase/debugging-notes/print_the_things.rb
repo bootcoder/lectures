@@ -69,17 +69,3 @@ puts "-" * 350
 # p "~" * 80
 # ap some_hash
 # p "~" * 80
-
-
-
-
-
-def thingy
-  var = ap
-  p var
-end
-
-p thingy
-
-
-
