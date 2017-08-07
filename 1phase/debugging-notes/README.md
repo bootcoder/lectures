@@ -16,7 +16,7 @@
 
 ### Links & Thoughts
 
-####Courtesy of Sherif Abushadi
+#### Courtesy of Sherif Abushadi
 
 Great Debugging resources:
 
@@ -35,4 +35,3 @@ Of course they'd have to fire up a console and poke around the mandocs for a bit
 Intense right?!
 
 I think it would help a lot. Right now the whole world just thinks we sit around and type really fast.
-
